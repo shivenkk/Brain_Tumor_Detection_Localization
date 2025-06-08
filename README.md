@@ -1,6 +1,18 @@
-# Brain_Tumor_Detection_Localization
-Brain Tumor Detection and Localization using Deep Learning
+# Brain Tumor Detection and Localization
 
-The project entails the development of a brain tumor detection and localization system using deep learning techniques, specifically employing ResNet for classification and ResUNet for segmentation, trained on MRI brain scans with manual FLAIR abnormality segmentation masks obtained from The Cancer Imaging Archive (TCIA) which is available online readily.
+Deep learning approach for brain tumor detection using ResNet and ResUNet.
 
-Data source: https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation 
+## Overview
+- **Classification**: ResNet for tumor detection
+- **Segmentation**: ResUNet for tumor localization
+- **Dataset**: https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
+- **Accuracy**: 98.26%
+
+## Technologies
+- PyTorch
+- OpenCV
+- NumPy, Pandas
+- Matplotlib
+
+## Results
+![image](https://github.com/user-attachments/assets/de83e7d2-a957-4183-8b16-c2daf25c4d47)
